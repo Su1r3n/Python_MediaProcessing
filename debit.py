@@ -14,7 +14,7 @@ def debit_image(dir_path, bit):
                     directory: str = i[0] + "/" + i[2][j]
     #                print(directory)
                     im = Image.open(directory)
-                    im_debit = im.quantize(bit)
+                    im_debit = im.quantize(bit) #画像のビット深度を下げる
                     im_debit.save("debit_images/"+ basename + "/" + name_ext_pair[0] + "_debit" + name_ext_pair[1])
 
 if __name__ == "__main__":

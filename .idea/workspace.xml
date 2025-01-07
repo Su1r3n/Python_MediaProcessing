@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17e191ce-b3db-43e3-acbf-fd2fb0d1e145" name="変更" comment="debit and mirrorize">
-      <change beforePath="$PROJECT_DIR$/howtouse.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="17e191ce-b3db-43e3-acbf-fd2fb0d1e145" name="変更" comment="create repository" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -31,7 +34,7 @@
     "Python.mirrorize.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/Sui/Documents/frame_export",
     "node.js.detected.package.eslint": "true",
@@ -70,7 +73,7 @@
       <workItem from="1736245782580" duration="178000" />
       <workItem from="1736246561633" duration="2133000" />
       <workItem from="1736250526591" duration="430000" />
-      <workItem from="1736250972734" duration="19000" />
+      <workItem from="1736250972734" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="debit and mirrorize">
       <option name="closed" value="true" />
@@ -88,15 +91,47 @@
       <option name="project" value="LOCAL" />
       <updated>1736250726186</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create repository">
+      <option name="closed" value="true" />
+      <created>1736251019180</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736251019180</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="debit and mirrorize" />
-    <option name="LAST_COMMIT_MESSAGE" value="debit and mirrorize" />
+    <MESSAGE value="create repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="create repository" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/frame_export$frame_export.coverage" NAME="frame_export のカバレッジ結果" MODIFIED="1736245249447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

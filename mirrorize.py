@@ -17,7 +17,7 @@ def mirror_image(dir_path):
                     im = Image.open(directory)
                     im_mirror = ImageOps.mirror(im)
                     im_mirror.save("mirrorized_images/"+ basename + "/" + name_ext_pair[0] + "_mirror" + name_ext_pair[1])
-                if name_ext_pair[1] == ".txt" or name_ext_pair[1] == ".TXT":
+                if name_ext_pair[1] == ".txt" or name_ext_pair[1] == ".TXT": #YOLO形式のテキストの左右情報を反転させるやつ
                     directory: str = i[0] + "/" + i[2][j]
                     path_write = 'mirrorized_images/' + basename + '/' + name_ext_pair[0] + '_mirror.txt'
                     g = open(path_write, "w")
